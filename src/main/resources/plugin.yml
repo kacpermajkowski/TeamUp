@@ -1,0 +1,14 @@
+name: TeamUP
+version: ${project.version}
+main: pl.kacpermajkowski.teamup.TeamUP
+api-version: 1.18
+authors: [ 'Kacper Majkowski' ]
+description: This plugin lets you team up with other players and gives you never seen functionalities to increase immersion into the game.
+softdepend: [PlaceholderAPI]
+commands:
+  team:
+    description: "Główna komenda pluginu TeamUP"
+    permission: teamup.team.basic
+    permission-message: "&cNie masz uprawnień do użycia tej komendy (teamup.player)"
+    usage: "&bAby sprawdzić poprawne użycie komendy wpisz /team help"
+    aliases: [druzyna]
